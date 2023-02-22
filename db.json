@@ -1,6 +1,7 @@
-"weightLossfoods" :[
+{"weightLossFoods" :[
     {
-      "id": "Broccoli",
+      "id": 1,
+      "name": "Broccoli",
       "nutritional_value": {
         "calories": 55,
         "protein": 4.2,
@@ -13,7 +14,8 @@
       "daily_consumption_quantity": "2 cups"
     },
     {
-      "id": "Spinach",
+      "id": 2,
+      "name":"Spinach",
       "nutritional_value": {
         "calories": 23,
         "protein": 2.9,
@@ -26,7 +28,8 @@
       "daily_consumption_quantity": "2 cups"
     },
     {
-      "id": "Kale",
+      "id": 3,
+      "name": "Kale",
       "nutritional_value": {
         "calories": 33,
         "protein": 2.9,
@@ -39,7 +42,8 @@
       "daily_consumption_quantity": "2 cups"
     },
     {
-      "id": "Avocado",
+      "id": 4,
+      "name":"Avocado",
       "nutritional_value": {
         "calories": 234,
         "protein": 2.9,
@@ -52,7 +56,8 @@
       "daily_consumption_quantity": "1/2 avocado"
     },
     {
-      "id": "Lentils",
+      "id": 5,
+      "name":"Lentils",
       "nutritional_value": {
         "calories": 230,
         "protein": 18,
@@ -65,7 +70,8 @@
       "daily_consumption_quantity": "1 cup"
     },
     {
-      "id": "Salmon",
+      "id": 6,
+      "name":"Salmon",
       "nutritional_value": {
         "calories": 206,
         "protein": 22,
@@ -78,7 +84,8 @@
       "daily_consumption_quantity": "3-4 oz"
     },
     {
-      "id": "Chicken Breast",
+      "id": 7,
+      "name": "Chicken Breast",
       "nutritional_value": {
         "calories": 165,
         "protein": 31,
@@ -89,10 +96,12 @@
       },
       "image_link": "https://example.com/chicken-breast.jpg",
       "daily_consumption_quantity": "3-4 oz"
-    }]
+    }]}
 
-    "weightLossRecipes" :[ { "name": "Grilled Chicken with Asparagus", 
-    "ingredients": [ 
+   { "weightLossRecipes" :[ 
+      { "id":1,
+        "name": "Grilled Chicken with Asparagus", 
+        "ingredients": [ 
         "2 chicken breasts",
      "1 bunch of asparagus",
       "1 tbsp olive oil",
@@ -106,7 +115,7 @@
       "Grill chicken and asparagus for 8-10 minutes on each side, until chicken is cooked through and asparagus is tender."
     ]
   },
-  {
+  {"id": 2,
     "name": "Broiled Salmon with Broccoli",
     "ingredients": [
       "2 salmon fillets",
@@ -123,7 +132,7 @@
       "Place salmon fillets and broccoli on a baking sheet and broil for 10-12 minutes, until salmon is cooked through and broccoli is tender."
     ]
   },
-  {
+  {"id": 3,
     "name": "Turkey Chili",
     "ingredients": [
       "1 lb ground turkey",
@@ -144,7 +153,7 @@
       "Simmer for 15-20 minutes, until chili is thick and flavorful."
     ]
   },
-  {
+  {"id": 4,
     "name": "Greek Yogurt with Berries and Almonds",
     "ingredients": [
       "1 cup of Greek yogurt",
@@ -158,7 +167,7 @@
       "Drizzle with honey if desired."
     ]
   },
-  {
+  {"id": 5,
     "name": "Quinoa Salad with Cucumbers and Tomatoes",
     "ingredients": [
       "1 cup of cooked quinoa",
@@ -176,11 +185,12 @@
       "Toss to coat and serve chilled."
     ]
   }
-]
+]}
 
-"weightGainFoods" :[
+{"weightGainFoods" :[
     {
-      "id": "Peanut Butter",
+      "id": 1,
+      "name": "Peanut Butter",
       "nutritional_value": {
         "calories": 190,
         "protein": 7,
@@ -193,7 +203,8 @@
       "daily_consumption_quantity": "2 tbsp"
     },
     {
-      "id": "Bananas",
+      "id": 2,
+      "name": "Bananas",
       "nutritional_value": {
         "calories": 105,
         "protein": 1.3,
@@ -206,7 +217,8 @@
       "daily_consumption_quantity": "2 bananas"
     },
     {
-      "id": "Olive Oil",
+      "id": 3,
+      "name": "Olive Oil",
       "nutritional_value": {
         "calories": 120,
         "fat": 14,
@@ -218,7 +230,8 @@
       "daily_consumption_quantity": "1 tbsp"
     },
     {
-      "id": "Whole Milk",
+      "id": 4,
+      "name": "Whole Milk",
       "nutritional_value": {
         "calories": 146,
         "protein": 8,
@@ -231,7 +244,8 @@
       "daily_consumption_quantity": "1 cup"
     },
     {
-      "id": "Cheese",
+      "id": 5,
+      "name": "Cheese",
       "nutritional_value": {
         "calories": 113,
         "protein": 7,
@@ -244,7 +258,8 @@
       "daily_consumption_quantity": "1 oz"
     },
     {
-      "id": "Dark Chocolate",
+      "id": 6,
+      "name": "Dark Chocolate",
       "nutritional_value": {
         "calories": 155,
         "fat": 9,
@@ -257,7 +272,8 @@
       "daily_consumption_quantity": "1 oz"
     },
     {
-      "id": "Sweet Potato",
+      "id": 7,
+      "name":"Sweet Potato",
       "nutritional_value": {
         "calories": 103,
         "protein": 2.3,
@@ -270,7 +286,8 @@
       "daily_consumption_quantity": "1 medium"
     },
     {
-      "id": "Granola",
+      "id": 8,
+      "name":"Granola",
       "nutritional_value": {
         "calories": 300,
         "protein": 10,
@@ -283,7 +300,8 @@
       "daily_consumption_quantity": "1/2 cup"
     },
     {
-      "id": "Trail Mix",
+      "id": 9,
+      "name": "Trail Mix",
       "nutritional_value": {
         "calories": 693,
         "protein": 16,
@@ -296,7 +314,8 @@
       "daily_consumption_quantity": "1/2 cup"
     },
     {
-      "id": "Dried Fruits",
+      "id": 10,
+      "name": "Dried Fruits",
       "nutritional_value": {
         "calories": 313,
         "protein": 2.3,
@@ -309,7 +328,8 @@
       "daily_consumption_quantity": "1/2 cup"
     },
     {
-      "id": "Rice",
+      "id": 11,
+      "name": "Rice",
       "nutritional_value": {
         "calories": 121,
         "protein": 2.7,
@@ -322,7 +342,8 @@
       "daily_consumption_quantity": "1 cup cooked"
     },
     {
-      "id": "Pasta",
+      "id": 12,
+      "name": "Pasta",
       "nutritional_value": {
         "calories": 131,
         "protein": 5,
@@ -333,11 +354,10 @@
       },
       "image_link": "https://images.unsplash.com/photo-1570075930808-b7d9517171f9",
       "daily_consumption_quantity": "1 cup cooked"
-  }]
+  }]}
 
-  "weightGainRecipes" :
-  [
-    {
+  {"weightGainRecipes" :[
+    {"id": 1,
       "name": "Peanut Butter Banana Smoothie",
       "ingredients": [
         "2 ripe bananas",
@@ -350,7 +370,7 @@
         "Pour into a glass and serve immediately."
       ]
     },
-    {
+    {"id": 2,
       "name": "Loaded Sweet Potato",
       "ingredients": [
         "1 large sweet potato",
@@ -368,7 +388,7 @@
         "Sprinkle with salt and pepper and serve hot."
       ]
     },
-    {
+    {"id": 3,
       "name": "Beef Stir-Fry",
       "ingredients": [
         "1 lb beef sirloin, sliced",
@@ -389,7 +409,7 @@
         "Serve over cooked rice."
       ]
     },
-    {
+    { "id": 4,
       "name": "Avocado and Egg Toast",
       "ingredients": [
         "2 slices of whole wheat bread",
@@ -407,7 +427,7 @@
         "Serve immediately."
       ]
     },
-    {
+    {"id": 5,
       "name": "Pasta with Meat Sauce",
       "ingredients": [
         "1 lb ground beef",
@@ -426,13 +446,14 @@
         "Add tomato sauce, diced tomatoes, oregano, basil, red pepper flakes, salt and pepper.",
         "Simmer for 20-30 minutes, until sauce is thick and flavorful.",
         "Cook spaghetti according to package instructions and drain.",
-        "Toss spaghetti with meat sauce and serve hot."]}
+        "Toss spaghetti with meat sauce and serve hot."]}]}
      
 
-        "buildMuscleFoods" : 
+        {"buildMuscleFoods"  
         [
             {
-              "id": "Eggs",
+              "id": 1,
+              "name": "Eggs",
               "nutritional_value": {
                 "calories": 78,
                 "protein": 6,
@@ -444,7 +465,8 @@
               "daily_consumption_quantity": "2-3 eggs"
             },
             {
-              "id": "Chicken Breast",
+              "id": 2,
+              "name": "Chicken Breast",
               "nutritional_value": {
                 "calories": 165,
                 "protein": 31,
@@ -456,7 +478,8 @@
               "daily_consumption_quantity": "4-6 oz"
             },
             {
-              "id": "Eggs",
+              "id": 3,
+              "name": "Eggs",
               "nutritional_value": {
                 "calories": 78,
                 "protein": 6,
@@ -468,7 +491,8 @@
               "daily_consumption_quantity": "2-3 eggs"
             },
             {
-              "id": "Chicken Breast",
+              "id": 4,
+              "name": "Chicken Breast",
               "nutritional_value": {
                 "calories": 165,
                 "protein": 31,
@@ -479,8 +503,8 @@
               "image_link": "https://images.unsplash.com/photo-1597376348803-b1a301a3859d",
               "daily_consumption_quantity": "4-6 oz"
             },
-            {
-              "name": "Tuna",
+            {"id": 6,
+            "name": "Tuna",
               "nutritional_value": {
                 "calories": 116,
                 "protein": 25,
@@ -491,8 +515,8 @@
               "image_link": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
               "daily_consumption_quantity": "4-5 oz"
             },
-            {
-              "id": "Salmon",
+            {"id": 7,
+            "name": "Salmon",
               "nutritional_value": {
                 "calories": 206,
                 "protein": 22,
@@ -503,8 +527,8 @@
               "image_link": "https://images.unsplash.com/photo-1534740644835-8f3d3dfce894",
               "daily_consumption_quantity": "3-4 oz"
             },
-            {
-              "id": "Beef",
+            {"id": 8,
+            "name": "Beef",
               "nutritional_value": {
                 "calories": 250,
                 "protein": 26,
@@ -516,7 +540,8 @@
               "daily_consumption_quantity": "4-6 oz"
             },
             {
-              "id": "Quinoa",
+              "id": 9,
+              "name": "Quinoa",
               "nutritional_value": {
                 "calories": 120,
                 "protein": 4,
@@ -528,7 +553,8 @@
               "daily_consumption_quantity": "1 cup"
             },
             {
-              "id": "Sweet Potato",
+              "id": 10,
+              "name": "Sweet Potato",
               "nutritional_value": {
                 "calories": 103,
                 "protein": 2,
@@ -538,10 +564,10 @@
               },
               "image_link": "https://images.unsplash.com/photo-1536595250680-83bb86a2d2c2",
               "daily_consumption_quantity": "1 medium"
-            }]
+            }]}
   
-            "buildMuscleRecipes" :[
-                {
+            {"buildMuscleRecipes" :[
+                {"id": 1,
                   "name": "Grilled Chicken and Vegetables",
                   "ingredients": [
                     "2 boneless, skinless chicken breasts",
@@ -561,7 +587,7 @@
                     "Serve hot."
                   ]
                 },
-                {
+                {"id": 2,
                   "name": "Beef and Broccoli Stir-Fry",
                   "ingredients": [
                     "1 lb beef sirloin, sliced",
@@ -584,7 +610,7 @@
                     "Serve over cooked rice."
                   ]
                 },
-                {
+                {"id": 3,
                   "name": "Salmon and Sweet Potato Hash",
                   "ingredients": [
                     "2 salmon fillets",
@@ -604,7 +630,7 @@
                     "Serve salmon fillets on top of the sweet potato hash."
                   ]
                 },
-                {
+                {"id": 4,
                   "name": "Quinoa and Black Bean Bowl",
                   "ingredients": [
                     "1 cup quinoa",
@@ -620,4 +646,4 @@
                     "Cook quinoa according to package instructions.",
                     "In a large bowl, combine cooked quinoa, black beans, avocado, bell pepper, cilantro, lime juice, olive oil, salt and pepper.",
                     "Toss to combine and serve cold"]
-                  }]
+                  }]}
