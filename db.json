@@ -10,7 +10,7 @@
         "vitamin_k": 245,
         "folate": 15
       },
-      "image_link": "https://example.com/broccoli.jpg",
+      "image_link": "https://www.istockphoto.com/photo/broccoli-in-an-old-metal-colander-gm915331918-251911978?utm_campaign=srp_photos_limitedresults&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbrocolli%2F&utm_medium=affiliate&utm_source=pexels&utm_term=brocolli",
       "daily_consumption_quantity": "2 cups"
     },
     {
@@ -301,20 +301,6 @@
     },
     {
       "id": 9,
-      "name": "Trail Mix",
-      "nutritional_value": {
-        "calories": 693,
-        "protein": 16,
-        "carbs": 57,
-        "fat": 48,
-        "fiber": 7,
-        "sugar": 22
-      },
-      "image_link": "https://images.unsplash.com/photo-1546156925-5d5bcaaec5b5",
-      "daily_consumption_quantity": "1/2 cup"
-    },
-    {
-      "id": 10,
       "name": "Dried Fruits",
       "nutritional_value": {
         "calories": 313,
@@ -328,7 +314,7 @@
       "daily_consumption_quantity": "1/2 cup"
     },
     {
-      "id": 11,
+      "id": 10,
       "name": "Rice",
       "nutritional_value": {
         "calories": 121,
@@ -342,7 +328,7 @@
       "daily_consumption_quantity": "1 cup cooked"
     },
     {
-      "id": 12,
+      "id": 11,
       "name": "Pasta",
       "nutritional_value": {
         "calories": 131,
@@ -466,32 +452,6 @@
             },
             {
               "id": 2,
-              "name": "Chicken Breast",
-              "nutritional_value": {
-                "calories": 165,
-                "protein": 31,
-                "fat": 3.6,
-                "vitamin_b6": 25,
-                "niacin": 47
-              },
-              "image_link": "https://images.unsplash.com/photo-1597376348803-b1a301a3859d",
-              "daily_consumption_quantity": "4-6 oz"
-            },
-            {
-              "id": 3,
-              "name": "Eggs",
-              "nutritional_value": {
-                "calories": 78,
-                "protein": 6,
-                "fat": 5,
-                "vitamin_d": 6,
-                "vitamin_b12": 15
-              },
-              "image_link": "https://images.unsplash.com/photo-1549216932-c8c17382fca1",
-              "daily_consumption_quantity": "2-3 eggs"
-            },
-            {
-              "id": 4,
               "name": "Chicken Breast",
               "nutritional_value": {
                 "calories": 165,
