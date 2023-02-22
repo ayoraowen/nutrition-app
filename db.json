@@ -10,7 +10,7 @@
         "vitamin_k": 245,
         "folate": 15
       },
-      "image_link": "https://www.istockphoto.com/photo/broccoli-in-an-old-metal-colander-gm915331918-251911978?utm_campaign=srp_photos_limitedresults&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbrocolli%2F&utm_medium=affiliate&utm_source=pexels&utm_term=brocolli",
+      "image_link": "public/app-images/brocolli.jpg",
       "daily_consumption_quantity": "2 cups"
     },
     {
@@ -24,7 +24,7 @@
         "vitamin_c": 14,
         "iron": 15
       },
-      "image_link": "https://example.com/spinach.jpg",
+      "image_link": "public/app-images/spinach.jpeg",
       "daily_consumption_quantity": "2 cups"
     },
     {
@@ -38,7 +38,7 @@
         "vitamin_c": 134,
         "vitamin_k": 684
       },
-      "image_link": "https://example.com/kale.jpg",
+      "image_link": "public/app-images/kale.jpeg",
       "daily_consumption_quantity": "2 cups"
     },
     {
@@ -52,7 +52,7 @@
         "potassium": 708,
         "healthy_fat": 21
       },
-      "image_link": "https://example.com/avocado.jpg",
+      "image_link": "public/app-images/avocado.jpeg",
       "daily_consumption_quantity": "1/2 avocado"
     },
     {
@@ -66,7 +66,7 @@
         "iron": 37,
         "magnesium": 71
       },
-      "image_link": "https://example.com/lentils.jpg",
+      "image_link": "public/app-images/lentils.jpeg",
       "daily_consumption_quantity": "1 cup"
     },
     {
@@ -80,7 +80,7 @@
         "vitamin_d": 127,
         "selenium": 54
       },
-      "image_link": "https://example.com/salmon.jpg",
+      "image_link": "public/app-images/salmon.webp",
       "daily_consumption_quantity": "3-4 oz"
     },
     {
@@ -94,7 +94,7 @@
         "phosphorus": 21,
         "selenium": 25
       },
-      "image_link": "https://example.com/chicken-breast.jpg",
+      "image_link": "public/app-images/chickenbreast.webp",
       "daily_consumption_quantity": "3-4 oz"
     }]}
 
@@ -199,7 +199,7 @@
         "fiber": 2,
         "sugar": 3
       },
-      "image_link": "https://images.unsplash.com/photo-1543475700-d9cf38873817",
+      "image_link": "public/app-images/peanutbutter.jpeg",
       "daily_consumption_quantity": "2 tbsp"
     },
     {
@@ -213,7 +213,7 @@
         "vitamin_c": 14,
         "potassium": 422
       },
-      "image_link": "https://images.unsplash.com/photo-1584431988938-d5a429f16d19",
+      "image_link": "public/app-images/bananas.jpeg",
       "daily_consumption_quantity": "2 bananas"
     },
     {
@@ -226,7 +226,7 @@
         "vitamin_k": 60.2,
         "antioxidants": "polyphenols"
       },
-      "image_link": "https://images.unsplash.com/photo-1530516034011-5fe8e7284d9d",
+      "image_link": "public/app-images/oliveoil.webp",
       "daily_consumption_quantity": "1 tbsp"
     },
     {
@@ -240,7 +240,7 @@
         "calcium": 28,
         "vitamin_d": 24
       },
-      "image_link": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+      "image_link": "public/app-images/wholemilk.jpeg",
       "daily_consumption_quantity": "1 cup"
     },
     {
@@ -254,7 +254,7 @@
         "vitamin_b12": 13,
         "sodium": 176
       },
-      "image_link": "https://images.unsplash.com/photo-1545249395-7c31d0fcf369",
+      "image_link": "public/app-images/cheese.jpeg",
       "daily_consumption_quantity": "1 oz"
     },
     {
@@ -268,7 +268,7 @@
         "sugar": 12,
         "iron": 19
       },
-      "image_link": "https://images.unsplash.com/photo-1571459272904-bc6ae1641a37",
+      "image_link": "public/app-images/darkchocolate.jpeg",
       "daily_consumption_quantity": "1 oz"
     },
     {
@@ -282,7 +282,7 @@
         "vitamin_a": 438,
         "vitamin_c": 34
       },
-      "image_link": "https://images.unsplash.com/photo-1556228728-07dab719a34f",
+      "image_link": "public/app-images/chickenbreast.webp",
       "daily_consumption_quantity": "1 medium"
     },
     {
@@ -296,7 +296,7 @@
         "fiber": 4,
         "sugar": 15
       },
-      "image_link": "https://images.unsplash.com/photo-1587377866347-8d0a9a54d13e",
+      "image_link": "public/app-images/granola.jpeg",
       "daily_consumption_quantity": "1/2 cup"
     },
     {
@@ -324,7 +324,7 @@
         "iron": 2,
         "sodium": 1
       },
-      "image_link": "https://images.unsplash.com/photo-1572441947931-ba7a1845efc4",
+      "image_link": "public/app-images/rice.jpeg",
       "daily_consumption_quantity": "1 cup cooked"
     },
     {
@@ -338,7 +338,7 @@
         "iron": 7,
         "sodium": 1
       },
-      "image_link": "https://images.unsplash.com/photo-1570075930808-b7d9517171f9",
+      "image_link": "public/app-images/pasta.jpeg",
       "daily_consumption_quantity": "1 cup cooked"
   }]}
 
@@ -447,7 +447,7 @@
                 "vitamin_d": 6,
                 "vitamin_b12": 15
               },
-              "image_link": "https://images.unsplash.com/photo-1549216932-c8c17382fca1",
+              "image_link": "public/app-images/eggs.webp",
               "daily_consumption_quantity": "2-3 eggs"
             },
             {
@@ -460,7 +460,7 @@
                 "vitamin_b6": 25,
                 "niacin": 47
               },
-              "image_link": "https://images.unsplash.com/photo-1597376348803-b1a301a3859d",
+              "image_link": "public/app-images/chickenbreast.webp",
               "daily_consumption_quantity": "4-6 oz"
             },
             {"id": 6,
@@ -472,7 +472,7 @@
                 "vitamin_d": 9,
                 "niacin": 78
               },
-              "image_link": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+              "image_link": "public/app-images/tuna.webp",
               "daily_consumption_quantity": "4-5 oz"
             },
             {"id": 7,
@@ -484,7 +484,7 @@
                 "vitamin_b6": 26,
                 "vitamin_b12": 56
               },
-              "image_link": "https://images.unsplash.com/photo-1534740644835-8f3d3dfce894",
+              "image_link": "public/app-images/salmon.webp",
               "daily_consumption_quantity": "3-4 oz"
             },
             {"id": 8,
@@ -496,7 +496,7 @@
                 "iron": 15,
                 "zinc": 54
               },
-              "image_link": "https://images.unsplash.com/photo-1569194078023-375e94eaf7ed",
+              "image_link": "public/app-images/beef.jpeg",
               "daily_consumption_quantity": "4-6 oz"
             },
             {
@@ -509,7 +509,7 @@
                 "fiber": 3,
                 "iron": 8
               },
-              "image_link": "https://images.unsplash.com/photo-1567014838593-60f6916f72f6",
+              "image_link": "public/app-images/quinoa.jpeg",
               "daily_consumption_quantity": "1 cup"
             },
             {
@@ -522,7 +522,7 @@
                 "fiber": 4,
                 "vitamin_a": 438
               },
-              "image_link": "https://images.unsplash.com/photo-1536595250680-83bb86a2d2c2",
+              "image_link": "public/app-images/sweetpotatoes.jpeg",
               "daily_consumption_quantity": "1 medium"
             }]}
   
