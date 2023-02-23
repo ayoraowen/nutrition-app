@@ -7,7 +7,7 @@ const Bmi = () => {
   const [weight, setWeight] = useState();
   const handleBmi = () => {
     let val = (
-      [Number(weight) / Number(height) / Number(height)] * 10000
+      [Number(weight) / (Number(height) * Number(height))] * 10000
     ).toFixed(1);
     setBmi(val);
     if (val < 18.5) {

@@ -14,17 +14,19 @@ function App() {
   <nav class="navbar background">
       <ul class="nav-list">
           <div class="logo">
-          {/* <img alt="logo" src={logo} width={150} height={100} /> */}
+          {/* <img alt="logo" src="" width={150} height={100} />  */}
           </div>
           
- <Navbar />
+      <Navbar />
       <Switch>
         <Route exact path="/build-muscle">
           <BuildMuscle />
         </Route>
+
         <Route exact path="/gain-weight">
           <GainWeight />
         </Route>
+
          <Route exact path="/lose-weight">
           <LoseWeight />
         </Route>
@@ -34,11 +36,16 @@ function App() {
         </Route>
       </Switch>
       </ul>
-      <div class="rightNav">
-                    <input type="text" name="search" id="search" />
-                    <button class="btn btn-sm">Search</button>
-                </div>
+                  <div class="rightNav">
+                  <input type="text" placeholder="Search.." />
+                  <button class="btn">Search</button>
+                  </div>
   </nav>
+
+  <div>
+  {/* <img src="https://picsum.photos/200" alt="randomnutritionimages" /> */}
+  </div>
+
   <Bmi />
   </div>;
 }
