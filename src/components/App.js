@@ -6,7 +6,7 @@ import BuildMuscle from "./BuildMuscle";
 import GainWeight from "./GainWeight";
 import LoseWeight from "./LoseWeight";
 import Bmi from "./Bmi";
-import  "./App";
+
 
 function App() {
 
@@ -38,8 +38,8 @@ function App() {
                     <input type="text" name="search" id="search" />
                     <button class="btn btn-sm">Search</button>
                 </div>
-</nav>
-<Bmi />
+  </nav>
+  <Bmi />
   </div>;
 }
 
