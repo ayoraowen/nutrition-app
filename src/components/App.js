@@ -1,6 +1,5 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import logo from '../images/nd_logo.png';
 import Navbar from "./Navbar";
 import Home from "./Home";
 import BuildMuscle from "./BuildMuscle";
@@ -15,7 +14,7 @@ function App() {
   <nav class="navbar background">
       <ul class="nav-list">
           <div class="logo">
-              <img src={logo} alt="logo" width={150} height={100} />
+          
           </div>
           
  <Navbar />
