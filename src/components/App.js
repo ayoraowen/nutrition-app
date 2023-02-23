@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Navbar from "./Navbar";
 import Home from "./Home";
+// import logo from "./logo_image/logo.png" ;
 import BuildMuscle from "./BuildMuscle";
 import GainWeight from "./GainWeight";
 import LoseWeight from "./LoseWeight";
@@ -9,12 +10,11 @@ import Bmi from "./Bmi";
 
 
 function App() {
-
   return <div>
   <nav class="navbar background">
       <ul class="nav-list">
           <div class="logo">
-    
+          {/* <img alt="logo" src={logo} width={150} height={100} /> */}
           </div>
           
  <Navbar />

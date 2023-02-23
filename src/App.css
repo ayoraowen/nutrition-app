@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+/*Adding styling*/
+body {
+  background-color: #878a85;
+  color: rgb(245, 241, 241);
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
