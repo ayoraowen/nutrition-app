@@ -1,9 +1,13 @@
 import React from "react";
+import BMICalculator from "./BMICalculator";
 
 function Home() {
-  return <div>
-    <h4>Home Page</h4>
-  </div>;
+
+    return (
+        <div id="bmicalculator">
+            <BMICalculator />
+        </div>
+    )
 }
 
-export default Home;
+export default Home

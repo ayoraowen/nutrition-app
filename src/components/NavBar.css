@@ -1,0 +1,28 @@
+
+     /* a {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        margin: 0 1rem;
+        text-decoration: none;
+        font-size: 1.2em;
+        color: firebrick;
+        border-bottom: 2px solid firebrick;
+        transition: 0.1s;
+      } */
+      
+       /* a.navbarclass: hover,
+       a.navbarclass: active {
+        color: rgb(64, 255, 0);
+        border-bottom: 2px solid tomato;
+      }
+
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+   */
