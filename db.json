@@ -96,9 +96,9 @@
       },
       "image_link": "public/app-images/chickenbreast.webp",
       "daily_consumption_quantity": "3-4 oz"
-    }]}
+    }],
 
-   { "weightLossRecipes" :[ 
+   "weightLossRecipes" :[ 
       { "id":1,
         "name": "Grilled Chicken with Asparagus", 
         "ingredients": [ 
@@ -185,9 +185,9 @@
       "Toss to coat and serve chilled."
     ]
   }
-]}
+],
 
-{"weightGainFoods" :[
+"weightGainFoods" :[
     {
       "id": 1,
       "name": "Peanut Butter",
@@ -340,9 +340,9 @@
       },
       "image_link": "public/app-images/pasta.jpeg",
       "daily_consumption_quantity": "1 cup cooked"
-  }]}
+  }],
 
-  {"weightGainRecipes" :[
+  "weightGainRecipes" :[
     {"id": 1,
       "name": "Peanut Butter Banana Smoothie",
       "ingredients": [
@@ -432,10 +432,10 @@
         "Add tomato sauce, diced tomatoes, oregano, basil, red pepper flakes, salt and pepper.",
         "Simmer for 20-30 minutes, until sauce is thick and flavorful.",
         "Cook spaghetti according to package instructions and drain.",
-        "Toss spaghetti with meat sauce and serve hot."]}]}
+        "Toss spaghetti with meat sauce and serve hot."]}],
      
 
-        {"buildMuscleFoods"  
+        "buildMuscleFoods" :
         [
             {
               "id": 1,
@@ -524,9 +524,9 @@
               },
               "image_link": "public/app-images/sweetpotatoes.jpeg",
               "daily_consumption_quantity": "1 medium"
-            }]}
+            }],
   
-            {"buildMuscleRecipes" :[
+            "buildMuscleRecipes" :[
                 {"id": 1,
                   "name": "Grilled Chicken and Vegetables",
                   "ingredients": [
