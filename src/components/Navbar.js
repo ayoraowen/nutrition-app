@@ -15,6 +15,7 @@ function Navbar() {
   return <div className="navlinks-and-search">
     
     <NavLink
+        className="navbarhoverclass"
         to="/"
         exact
         style={linkStyles}
@@ -26,6 +27,7 @@ function Navbar() {
       </NavLink>
 
       <NavLink
+        className="navbarhoverclass"
         to="/about"
         exact
         style={linkStyles}
@@ -37,6 +39,7 @@ function Navbar() {
       </NavLink>
 
       <NavLink
+        className="navbarhoverclass"
         to="/build-muscle"
         exact
         style={linkStyles}
@@ -48,6 +51,7 @@ function Navbar() {
       </NavLink>
 
       <NavLink
+        className="navbarhoverclass"
         to="/gain-weight"
         exact
         style={linkStyles}
@@ -59,6 +63,7 @@ function Navbar() {
       </NavLink>
       
       <NavLink
+        className="navbarhoverclass"
         to="/lose-weight"
         exact
         style={linkStyles}

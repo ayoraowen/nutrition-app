@@ -50,3 +50,8 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.navbarhoverclass:hover{
+  color: rgb(64, 255, 0);
+  border-bottom: 2px solid tomato;
+}
