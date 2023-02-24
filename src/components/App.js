@@ -9,11 +9,14 @@ import Bmi from "./Bmi";
 
 
 function App() {
+  //generates a random image of 150pixels dimensions for the front page
+  const imgUrl ="https://picsum.photos/200"
+    
   return <div>
   <nav class="navbar background">
       <ul class="nav-list">
           <div class="logo">
-          {/* <img alt="logo" src="" width={150} height={100} />  */}
+          {/* <img alt="logo" src="" width={140} height={100} />  */}
           </div>
           
       <Navbar />
@@ -42,7 +45,7 @@ function App() {
   </nav>
 
   <div>
-  {/* <img src=" " alt="randomnutritionimages" /> */}
+   <img src={imgUrl} alt="randomimage"/>
   </div>
 
   <Bmi />
