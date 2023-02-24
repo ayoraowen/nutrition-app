@@ -20,8 +20,9 @@ function App() {
           <div class="logo">
           {/* <img alt="logo" src="" width={140} height={100} />  */}
           </div>
-          
-      <Navbar />
+      <header className="App-header">
+          <Navbar />
+      </header>
       <Switch>
       <Route exact path="/about">
           <About />
