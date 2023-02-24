@@ -12,7 +12,7 @@ const linkStyles = {
   color: "white",
 };
 function Navbar() {
-  return <div>
+  return <div className="navlinks-and-search">
     
     <NavLink
         to="/"
@@ -68,6 +68,10 @@ function Navbar() {
         >
           LoseWeight
    </NavLink>
+   <div class="rightNav">
+                  <input type="text" placeholder="Search.." />
+                  <button class="btn">Search</button>
+                  </div>
     
   </div>;
 }

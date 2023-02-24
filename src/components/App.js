@@ -6,6 +6,7 @@ import BuildMuscle from "./BuildMuscle";
 import GainWeight from "./GainWeight";
 import LoseWeight from "./LoseWeight";
 import Bmi from "./Bmi";
+import '../../src/App.css'
 import About from "./About";
 
 
@@ -43,10 +44,10 @@ function App() {
         </Route>
       </Switch>
       </ul>
-                  <div class="rightNav">
+                  {/* <div class="rightNav"> moved to Navbar
                   <input type="text" placeholder="Search.." />
                   <button class="btn">Search</button>
-                  </div>
+                  </div> */}
   </nav>
 
   <div>

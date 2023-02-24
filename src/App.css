@@ -45,3 +45,8 @@ body {
   font-family: Arial;
   text-align: center;
 }
+
+.navlinks-and-search{
+  display: flex;
+  justify-content: center;
+}
