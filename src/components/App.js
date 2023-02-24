@@ -42,7 +42,7 @@ function App() {
   </nav>
 
   <div>
-  {/* <img src="https://picsum.photos/200" alt="randomnutritionimages" /> */}
+  {/* <img src=" " alt="randomnutritionimages" /> */}
   </div>
 
   <Bmi />
