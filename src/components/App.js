@@ -6,6 +6,7 @@ import BuildMuscle from "./BuildMuscle";
 import GainWeight from "./GainWeight";
 import LoseWeight from "./LoseWeight";
 import Bmi from "./Bmi";
+import About from "./About";
 
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
           
       <Navbar />
       <Switch>
+      <Route exact path="/about">
+          <About />
+        </Route>
+
         <Route exact path="/build-muscle">
           <BuildMuscle />
         </Route>

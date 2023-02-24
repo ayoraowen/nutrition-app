@@ -24,8 +24,9 @@ function Navbar() {
       >
         Home
       </NavLink>
+
       <NavLink
-        to="/"
+        to="/about"
         exact
         style={linkStyles}
         activeStyle={{
@@ -34,6 +35,7 @@ function Navbar() {
       >
       About
       </NavLink>
+
       <NavLink
         to="/build-muscle"
         exact
@@ -44,6 +46,7 @@ function Navbar() {
       >
         BuildMuscle
       </NavLink>
+
       <NavLink
         to="/gain-weight"
         exact
@@ -54,6 +57,7 @@ function Navbar() {
         >
           GainWeight
       </NavLink>
+      
       <NavLink
         to="/lose-weight"
         exact
