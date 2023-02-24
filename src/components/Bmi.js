@@ -11,13 +11,13 @@ const Bmi = () => {
     ).toFixed(1);
     setBmi(val);
     if (val < 18.5) {
-      setInfo("Under Weight");
+      setInfo("you are UNDER WEIGHT , please check on how to gain weight");
     } else if (val > 18.5 && val <= 24.9) {
-      setInfo("Healthy");
+      setInfo("you are HEALTHY , keep it up!!! You may consider building muscles");
     } else if (val > 24.9 && val < 30) {
-      setInfo("Overweight");
+      setInfo("you are OVERWEIGHT , Please check on how to lose weight");
     } else {
-      setInfo("Obese");
+      setInfo("you are an OBESE, eat healthy, reduced-calorie diet and exercise regularly ");
     }
   };
   return (
