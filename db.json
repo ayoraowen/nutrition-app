@@ -1,193 +1,283 @@
-{"weightLossFoods" :[
+{
+  "weightLossFoods": [
     {
       "id": 1,
       "name": "Broccoli",
-      "nutritional_value": {
-        "calories": 55,
-        "protein": 4.2,
-        "fiber": 5.1,
-        "vitamin_c": 135,
-        "vitamin_k": 245,
-        "folate": 15
-      },
-      "image_link": "public/app-images/brocolli.jpg",
+      "nutritional_value": [
+        {
+          "calories": 55
+        },
+        {
+          "protein": 4.2
+        },
+        {
+          "fiber": 5.1
+        },
+        {
+          "vitamin_c": 135
+        },
+        {
+          "vitamin_k": 245
+        },
+        {
+          "folate": 15
+        }
+      ],
+      "image_link": "/app-images/brocolli.jpg",
       "daily_consumption_quantity": "2 cups"
     },
     {
       "id": 2,
-      "name":"Spinach",
-      "nutritional_value": {
-        "calories": 23,
-        "protein": 2.9,
-        "fiber": 2.4,
-        "vitamin_a": 56,
-        "vitamin_c": 14,
-        "iron": 15
-      },
-      "image_link": "public/app-images/spinach.jpeg",
+      "name": "Spinach",
+      "nutritional_value": [
+        {
+          "calories": 23
+        },
+        {
+          "protein": 2.9
+        },
+        {
+          "fiber": 2.4
+        },
+        {
+          "vitamin_a": 56
+        },
+        {
+          "vitamin_c": 14
+        },
+        {
+          "iron": 15
+        }
+      ],
+      "image_link": "/app-images/spinach.jpeg",
       "daily_consumption_quantity": "2 cups"
     },
     {
       "id": 3,
       "name": "Kale",
-      "nutritional_value": {
-        "calories": 33,
-        "protein": 2.9,
-        "fiber": 2.6,
-        "vitamin_a": 206,
-        "vitamin_c": 134,
-        "vitamin_k": 684
-      },
-      "image_link": "public/app-images/kale.jpeg",
+      "nutritional_value": [
+        {
+          "calories": 33
+        },
+        {
+          "protein": 2.9
+        },
+        {
+          "fiber": 2.6
+        },
+        {
+          "vitamin_a": 206
+        },
+        {
+          "vitamin_c": 134
+        },
+        {
+          "vitamin_k": 684
+        }
+      ],
+      "image_link": "/app-images/kale.jpeg",
       "daily_consumption_quantity": "2 cups"
     },
     {
       "id": 4,
-      "name":"Avocado",
-      "nutritional_value": {
-        "calories": 234,
-        "protein": 2.9,
-        "fiber": 9,
-        "vitamin_c": 17,
-        "potassium": 708,
-        "healthy_fat": 21
-      },
-      "image_link": "public/app-images/avocado.jpeg",
+      "name": "Avocado",
+      "nutritional_value": [
+        {
+          "calories": 234
+        },
+        {
+          "protein": 2.9
+        },
+        {
+          "fiber": 9
+        },
+        {
+          "vitamin_c": 17
+        },
+        {
+          "potassium": 708
+        },
+        {
+          "healthy_fat": 21
+        }
+      ],
+      "image_link": "/app-images/avocado.jpeg",
       "daily_consumption_quantity": "1/2 avocado"
     },
     {
       "id": 5,
-      "name":"Lentils",
-      "nutritional_value": {
-        "calories": 230,
-        "protein": 18,
-        "fiber": 16,
-        "folate": 90,
-        "iron": 37,
-        "magnesium": 71
-      },
-      "image_link": "public/app-images/lentils.jpeg",
+      "name": "Lentils",
+      "nutritional_value": [
+        {
+          "calories": 230
+        },
+        {
+          "protein": 18
+        },
+        {
+          "fiber": 16
+        },
+        {
+          "folate": 90
+        },
+        {
+          "iron": 37
+        },
+        {
+          "magnesium": 71
+        }
+      ],
+      "image_link": "/app-images/lentils.jpeg",
       "daily_consumption_quantity": "1 cup"
     },
     {
       "id": 6,
-      "name":"Salmon",
-      "nutritional_value": {
-        "calories": 206,
-        "protein": 22,
-        "omega_3": 2.3,
-        "vitamin_b12": 76,
-        "vitamin_d": 127,
-        "selenium": 54
-      },
-      "image_link": "public/app-images/salmon.webp",
+      "name": "Salmon",
+      "nutritional_value": [
+        {
+          "calories": 206
+        },
+        {
+          "protein": 22
+        },
+        {
+          "omega_3": 2.3
+        },
+        {
+          "vitamin_b12": 76
+        },
+        {
+          "vitamin_d": 127
+        },
+        {
+          "selenium": 54
+        }
+      ],
+      "image_link": "/app-images/salmon.webp",
       "daily_consumption_quantity": "3-4 oz"
     },
     {
       "id": 7,
       "name": "Chicken Breast",
-      "nutritional_value": {
-        "calories": 165,
-        "protein": 31,
-        "vitamin_b6": 37,
-        "niacin": 59,
-        "phosphorus": 21,
-        "selenium": 25
-      },
-      "image_link": "public/app-images/chickenbreast.webp",
+      "nutritional_value": [
+        {
+          "calories": 165
+        },
+        {
+          "protein": 31
+        },
+        {
+          "vitamin_b6": 37
+        },
+        {
+          "niacin": 59
+        },
+        {
+          "phosphorus": 21
+        },
+        {
+          "selenium": 25
+        }
+      ],
+      "image_link": "/app-images/chickenbreast.webp",
       "daily_consumption_quantity": "3-4 oz"
-    }],
-
-   "weightLossRecipes" :[ 
-      { "id":1,
-        "name": "Grilled Chicken with Asparagus", 
-        "ingredients": [ 
+    }
+  ],
+  "weightLossRecipes": [
+    {
+      "id": 1,
+      "name": "Grilled Chicken with Asparagus",
+      "ingredients": [
         "2 chicken breasts",
-     "1 bunch of asparagus",
-      "1 tbsp olive oil",
-       "1 tsp garlic powder",
-       "1 tsp onion powder",
-        "salt and pepper" ],
-    "directions": [
-      "Preheat grill to medium-high heat.",
-      "Season chicken breasts with garlic powder, onion powder, salt and pepper.",
-      "Drizzle asparagus with olive oil and season with salt and pepper.",
-      "Grill chicken and asparagus for 8-10 minutes on each side, until chicken is cooked through and asparagus is tender."
-    ]
-  },
-  {"id": 2,
-    "name": "Broiled Salmon with Broccoli",
-    "ingredients": [
-      "2 salmon fillets",
-      "1 head of broccoli",
-      "1 tbsp olive oil",
-      "1 tsp lemon juice",
-      "1 tsp dried dill",
-      "salt and pepper"
-    ],
-    "directions": [
-      "Preheat broiler on high.",
-      "Season salmon fillets with lemon juice, dill, salt and pepper.",
-      "Toss broccoli with olive oil, salt and pepper.",
-      "Place salmon fillets and broccoli on a baking sheet and broil for 10-12 minutes, until salmon is cooked through and broccoli is tender."
-    ]
-  },
-  {"id": 3,
-    "name": "Turkey Chili",
-    "ingredients": [
-      "1 lb ground turkey",
-      "1 can of black beans",
-      "1 can of kidney beans",
-      "1 can of diced tomatoes",
-      "1 onion, chopped",
-      "2 cloves of garlic, minced",
-      "1 tbsp chili powder",
-      "1 tsp cumin",
-      "1 tsp paprika",
-      "salt and pepper"
-    ],
-    "directions": [
-      "In a large pot, brown ground turkey with onion and garlic.",
-      "Add chili powder, cumin, paprika, salt and pepper and cook for 2 minutes.",
-      "Add black beans, kidney beans and diced tomatoes with their juice.",
-      "Simmer for 15-20 minutes, until chili is thick and flavorful."
-    ]
-  },
-  {"id": 4,
-    "name": "Greek Yogurt with Berries and Almonds",
-    "ingredients": [
-      "1 cup of Greek yogurt",
-      "1 cup of mixed berries",
-      "1/4 cup of almonds, chopped",
-      "1 tbsp honey (optional)"
-    ],
-    "directions": [
-      "Spoon Greek yogurt into a bowl.",
-      "Top with mixed berries and chopped almonds.",
-      "Drizzle with honey if desired."
-    ]
-  },
-  {"id": 5,
-    "name": "Quinoa Salad with Cucumbers and Tomatoes",
-    "ingredients": [
-      "1 cup of cooked quinoa",
-      "1 cucumber, diced",
-      "1 cup of cherry tomatoes, halved",
-      "1/4 cup of feta cheese",
-      "2 tbsp of olive oil",
-      "1 tbsp of lemon juice",
-      "salt and pepper"
-    ],
-    "directions": [
-      "In a large bowl, combine cooked quinoa, diced cucumber and halved cherry tomatoes.",
-      "Add crumbled feta cheese and toss to combine.",
-      "Whisk together olive oil, lemon juice, salt and pepper and pour over salad.",
-      "Toss to coat and serve chilled."
-    ]
-  }
-],
-
-"weightGainFoods" :[
+        "1 bunch of asparagus",
+        "1 tbsp olive oil",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "salt and pepper"
+      ],
+      "directions": [
+        "Preheat grill to medium-high heat.",
+        "Season chicken breasts with garlic powder, onion powder, salt and pepper.",
+        "Drizzle asparagus with olive oil and season with salt and pepper.",
+        "Grill chicken and asparagus for 8-10 minutes on each side, until chicken is cooked through and asparagus is tender."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Broiled Salmon with Broccoli",
+      "ingredients": [
+        "2 salmon fillets",
+        "1 head of broccoli",
+        "1 tbsp olive oil",
+        "1 tsp lemon juice",
+        "1 tsp dried dill",
+        "salt and pepper"
+      ],
+      "directions": [
+        "Preheat broiler on high.",
+        "Season salmon fillets with lemon juice, dill, salt and pepper.",
+        "Toss broccoli with olive oil, salt and pepper.",
+        "Place salmon fillets and broccoli on a baking sheet and broil for 10-12 minutes, until salmon is cooked through and broccoli is tender."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Turkey Chili",
+      "ingredients": [
+        "1 lb ground turkey",
+        "1 can of black beans",
+        "1 can of kidney beans",
+        "1 can of diced tomatoes",
+        "1 onion, chopped",
+        "2 cloves of garlic, minced",
+        "1 tbsp chili powder",
+        "1 tsp cumin",
+        "1 tsp paprika",
+        "salt and pepper"
+      ],
+      "directions": [
+        "In a large pot, brown ground turkey with onion and garlic.",
+        "Add chili powder, cumin, paprika, salt and pepper and cook for 2 minutes.",
+        "Add black beans, kidney beans and diced tomatoes with their juice.",
+        "Simmer for 15-20 minutes, until chili is thick and flavorful."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Greek Yogurt with Berries and Almonds",
+      "ingredients": [
+        "1 cup of Greek yogurt",
+        "1 cup of mixed berries",
+        "1/4 cup of almonds, chopped",
+        "1 tbsp honey (optional)"
+      ],
+      "directions": [
+        "Spoon Greek yogurt into a bowl.",
+        "Top with mixed berries and chopped almonds.",
+        "Drizzle with honey if desired."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Quinoa Salad with Cucumbers and Tomatoes",
+      "ingredients": [
+        "1 cup of cooked quinoa",
+        "1 cucumber, diced",
+        "1 cup of cherry tomatoes, halved",
+        "1/4 cup of feta cheese",
+        "2 tbsp of olive oil",
+        "1 tbsp of lemon juice",
+        "salt and pepper"
+      ],
+      "directions": [
+        "In a large bowl, combine cooked quinoa, diced cucumber and halved cherry tomatoes.",
+        "Add crumbled feta cheese and toss to combine.",
+        "Whisk together olive oil, lemon juice, salt and pepper and pour over salad.",
+        "Toss to coat and serve chilled."
+      ]
+    }
+  ],
+  "weightGainFoods": [
     {
       "id": 1,
       "name": "Peanut Butter",
@@ -273,7 +363,7 @@
     },
     {
       "id": 7,
-      "name":"Sweet Potato",
+      "name": "Sweet Potato",
       "nutritional_value": {
         "calories": 103,
         "protein": 2.3,
@@ -287,7 +377,7 @@
     },
     {
       "id": 8,
-      "name":"Granola",
+      "name": "Granola",
       "nutritional_value": {
         "calories": 300,
         "protein": 10,
@@ -340,10 +430,11 @@
       },
       "image_link": "public/app-images/pasta.jpeg",
       "daily_consumption_quantity": "1 cup cooked"
-  }],
-
-  "weightGainRecipes" :[
-    {"id": 1,
+    }
+  ],
+  "weightGainRecipes": [
+    {
+      "id": 1,
       "name": "Peanut Butter Banana Smoothie",
       "ingredients": [
         "2 ripe bananas",
@@ -356,7 +447,8 @@
         "Pour into a glass and serve immediately."
       ]
     },
-    {"id": 2,
+    {
+      "id": 2,
       "name": "Loaded Sweet Potato",
       "ingredients": [
         "1 large sweet potato",
@@ -374,7 +466,8 @@
         "Sprinkle with salt and pepper and serve hot."
       ]
     },
-    {"id": 3,
+    {
+      "id": 3,
       "name": "Beef Stir-Fry",
       "ingredients": [
         "1 lb beef sirloin, sliced",
@@ -395,7 +488,8 @@
         "Serve over cooked rice."
       ]
     },
-    { "id": 4,
+    {
+      "id": 4,
       "name": "Avocado and Egg Toast",
       "ingredients": [
         "2 slices of whole wheat bread",
@@ -413,7 +507,8 @@
         "Serve immediately."
       ]
     },
-    {"id": 5,
+    {
+      "id": 5,
       "name": "Pasta with Meat Sauce",
       "ingredients": [
         "1 lb ground beef",
@@ -432,178 +527,258 @@
         "Add tomato sauce, diced tomatoes, oregano, basil, red pepper flakes, salt and pepper.",
         "Simmer for 20-30 minutes, until sauce is thick and flavorful.",
         "Cook spaghetti according to package instructions and drain.",
-        "Toss spaghetti with meat sauce and serve hot."]}],
-     
-
-        "buildMuscleFoods" :
-        [
-            {
-              "id": 1,
-              "name": "Eggs",
-              "nutritional_value": {
-                "calories": 78,
-                "protein": 6,
-                "fat": 5,
-                "vitamin_d": 6,
-                "vitamin_b12": 15
-              },
-              "image_link": "public/app-images/eggs.webp",
-              "daily_consumption_quantity": "2-3 eggs"
-            },
-            {
-              "id": 2,
-              "name": "Chicken Breast",
-              "nutritional_value": {
-                "calories": 165,
-                "protein": 31,
-                "fat": 3.6,
-                "vitamin_b6": 25,
-                "niacin": 47
-              },
-              "image_link": "public/app-images/chickenbreast.webp",
-              "daily_consumption_quantity": "4-6 oz"
-            },
-            {"id": 6,
-            "name": "Tuna",
-              "nutritional_value": {
-                "calories": 116,
-                "protein": 25,
-                "fat": 1,
-                "vitamin_d": 9,
-                "niacin": 78
-              },
-              "image_link": "public/app-images/tuna.webp",
-              "daily_consumption_quantity": "4-5 oz"
-            },
-            {"id": 7,
-            "name": "Salmon",
-              "nutritional_value": {
-                "calories": 206,
-                "protein": 22,
-                "fat": 13,
-                "vitamin_b6": 26,
-                "vitamin_b12": 56
-              },
-              "image_link": "public/app-images/salmon.webp",
-              "daily_consumption_quantity": "3-4 oz"
-            },
-            {"id": 8,
-            "name": "Beef",
-              "nutritional_value": {
-                "calories": 250,
-                "protein": 26,
-                "fat": 17,
-                "iron": 15,
-                "zinc": 54
-              },
-              "image_link": "public/app-images/beef.jpeg",
-              "daily_consumption_quantity": "4-6 oz"
-            },
-            {
-              "id": 9,
-              "name": "Quinoa",
-              "nutritional_value": {
-                "calories": 120,
-                "protein": 4,
-                "fat": 2,
-                "fiber": 3,
-                "iron": 8
-              },
-              "image_link": "public/app-images/quinoa.jpeg",
-              "daily_consumption_quantity": "1 cup"
-            },
-            {
-              "id": 10,
-              "name": "Sweet Potato",
-              "nutritional_value": {
-                "calories": 103,
-                "protein": 2,
-                "carbs": 24,
-                "fiber": 4,
-                "vitamin_a": 438
-              },
-              "image_link": "public/app-images/sweetpotatoes.jpeg",
-              "daily_consumption_quantity": "1 medium"
-            }],
-  
-            "buildMuscleRecipes" :[
-                {"id": 1,
-                  "name": "Grilled Chicken and Vegetables",
-                  "ingredients": [
-                    "2 boneless, skinless chicken breasts",
-                    "1 zucchini, sliced",
-                    "1 bell pepper, sliced",
-                    "1 red onion, sliced",
-                    "2 tbsp olive oil",
-                    "2 cloves garlic, minced",
-                    "1/2 tsp dried thyme",
-                    "salt and pepper"
-                  ],
-                  "directions": [
-                    "Preheat grill to medium-high heat.",
-                    "In a large bowl, whisk together olive oil, garlic, thyme, salt and pepper.",
-                    "Add chicken and vegetables to the bowl and toss to coat in the marinade.",
-                    "Grill chicken and vegetables for 6-8 minutes per side, until chicken is cooked through and vegetables are tender.",
-                    "Serve hot."
-                  ]
-                },
-                {"id": 2,
-                  "name": "Beef and Broccoli Stir-Fry",
-                  "ingredients": [
-                    "1 lb beef sirloin, sliced",
-                    "2 cups broccoli florets",
-                    "1 bell pepper, sliced",
-                    "1 onion, sliced",
-                    "2 garlic cloves, minced",
-                    "1/4 cup soy sauce",
-                    "1/4 cup beef broth",
-                    "1 tbsp cornstarch",
-                    "1 tbsp vegetable oil",
-                    "2 cups cooked rice"
-                  ],
-                  "directions": [
-                    "In a small bowl, whisk together soy sauce, beef broth and cornstarch.",
-                    "Heat vegetable oil in a large skillet over high heat.",
-                    "Add beef sirloin and cook for 2-3 minutes on each side, until browned.",
-                    "Add broccoli, bell pepper, onion and garlic and stir-fry for 2-3 minutes.",
-                    "Pour soy sauce mixture over the beef and vegetables and stir-fry for another 1-2 minutes, until sauce is thickened.",
-                    "Serve over cooked rice."
-                  ]
-                },
-                {"id": 3,
-                  "name": "Salmon and Sweet Potato Hash",
-                  "ingredients": [
-                    "2 salmon fillets",
-                    "2 sweet potatoes, peeled and diced",
-                    "1 red bell pepper, diced",
-                    "1 onion, diced",
-                    "2 cloves garlic, minced",
-                    "2 tbsp olive oil",
-                    "1 tsp smoked paprika",
-                    "salt and pepper"
-                  ],
-                  "directions": [
-                    "Preheat oven to 400°F.",
-                    "In a large bowl, toss sweet potatoes, red bell pepper, onion, garlic, olive oil, smoked paprika, salt and pepper together.",
-                    "Spread the mixture onto a baking sheet and bake for 25-30 minutes, until sweet potatoes are tender.",
-                    "Season salmon fillets with salt and pepper and bake in the oven for 10-12 minutes, until cooked through.",
-                    "Serve salmon fillets on top of the sweet potato hash."
-                  ]
-                },
-                {"id": 4,
-                  "name": "Quinoa and Black Bean Bowl",
-                  "ingredients": [
-                    "1 cup quinoa",
-                    "1 can black beans, drained and rinsed",
-                    "1 avocado, sliced",
-                    "1 bell pepper, diced",
-                    "1/4 cup cilantro, chopped",
-                    "1/4 cup lime juice",
-                    "2 tbsp olive oil",
-                    "salt and pepper"
-                  ],
-                  "directions": [
-                    "Cook quinoa according to package instructions.",
-                    "In a large bowl, combine cooked quinoa, black beans, avocado, bell pepper, cilantro, lime juice, olive oil, salt and pepper.",
-                    "Toss to combine and serve cold"]
-                  }]}
+        "Toss spaghetti with meat sauce and serve hot."
+      ]
+    }
+  ],
+  "buildMuscleFoods": [
+    {
+      "id": 1,
+      "name": "Eggs",
+      "nutritional_value": [
+        {
+          "calories": 78
+        },
+        {
+          "protein": 6
+        },
+        {
+          "fat": 5
+        },
+        {
+          "vitamin_d": 6
+        },
+        {
+          "vitamin_b12": 15
+        }
+      ],
+      "image_link": "public/app-images/eggs.webp",
+      "daily_consumption_quantity": "2-3 eggs"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Breast",
+      "nutritional_value": [
+        {
+          "calories": 165
+        },
+        {
+          "protein": 31
+        },
+        {
+          "fat": 3.6
+        },
+        {
+          "vitamin_b6": 25
+        },
+        {
+          "niacin": 47
+        }
+      ],
+      "image_link": "public/app-images/chickenbreast.webp",
+      "daily_consumption_quantity": "4-6 oz"
+    },
+    {
+      "id": 6,
+      "name": "Tuna",
+      "nutritional_value": [
+        {
+          "calories": 116
+        },
+        {
+          "protein": 25
+        },
+        {
+          "fat": 1
+        },
+        {
+          "vitamin_d": 9
+        },
+        {
+          "niacin": 78
+        }
+      ],
+      "image_link": "public/app-images/tuna.webp",
+      "daily_consumption_quantity": "4-5 oz"
+    },
+    {
+      "id": 7,
+      "name": "Salmon",
+      "nutritional_value": [
+        {
+          "calories": 206
+        },
+        {
+          "protein": 22
+        },
+        {
+          "fat": 13
+        },
+        {
+          "vitamin_b6": 26
+        },
+        {
+          "vitamin_b12": 56
+        }
+      ],
+      "image_link": "public/app-images/salmon.webp",
+      "daily_consumption_quantity": "3-4 oz"
+    },
+    {
+      "id": 8,
+      "name": "Beef",
+      "nutritional_value": [
+        {
+          "calories": 250
+        },
+        {
+          "protein": 26
+        },
+        {
+          "fat": 17
+        },
+        {
+          "iron": 15
+        },
+        {
+          "zinc": 54
+        }
+      ],
+      "image_link": "public/app-images/beef.jpeg",
+      "daily_consumption_quantity": "4-6 oz"
+    },
+    {
+      "id": 9,
+      "name": "Quinoa",
+      "nutritional_value": [
+        {
+          "calories": 120
+        },
+        {
+          "protein": 4
+        },
+        {
+          "fat": 2
+        },
+        {
+          "fiber": 3
+        },
+        {
+          "iron": 8
+        }
+      ],
+      "image_link": "public/app-images/quinoa.jpeg",
+      "daily_consumption_quantity": "1 cup"
+    },
+    {
+      "id": 10,
+      "name": "Sweet Potato",
+      "nutritional_value": [
+        {
+          "calories": 103
+        },
+        {
+          "protein": 2
+        },
+        {
+          "carbs": 24
+        },
+        {
+          "fiber": 4
+        },
+        {
+          "vitamin_a": 438
+        }
+      ],
+      "image_link": "public/app-images/sweetpotatoes.jpeg",
+      "daily_consumption_quantity": "1 medium"
+    }
+  ],
+  "buildMuscleRecipes": [
+    {
+      "id": 1,
+      "name": "Grilled Chicken and Vegetables",
+      "ingredients": [
+        "2 boneless, skinless chicken breasts",
+        "1 zucchini, sliced",
+        "1 bell pepper, sliced",
+        "1 red onion, sliced",
+        "2 tbsp olive oil",
+        "2 cloves garlic, minced",
+        "1/2 tsp dried thyme",
+        "salt and pepper"
+      ],
+      "directions": [
+        "Preheat grill to medium-high heat.",
+        "In a large bowl, whisk together olive oil, garlic, thyme, salt and pepper.",
+        "Add chicken and vegetables to the bowl and toss to coat in the marinade.",
+        "Grill chicken and vegetables for 6-8 minutes per side, until chicken is cooked through and vegetables are tender.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Beef and Broccoli Stir-Fry",
+      "ingredients": [
+        "1 lb beef sirloin, sliced",
+        "2 cups broccoli florets",
+        "1 bell pepper, sliced",
+        "1 onion, sliced",
+        "2 garlic cloves, minced",
+        "1/4 cup soy sauce",
+        "1/4 cup beef broth",
+        "1 tbsp cornstarch",
+        "1 tbsp vegetable oil",
+        "2 cups cooked rice"
+      ],
+      "directions": [
+        "In a small bowl, whisk together soy sauce, beef broth and cornstarch.",
+        "Heat vegetable oil in a large skillet over high heat.",
+        "Add beef sirloin and cook for 2-3 minutes on each side, until browned.",
+        "Add broccoli, bell pepper, onion and garlic and stir-fry for 2-3 minutes.",
+        "Pour soy sauce mixture over the beef and vegetables and stir-fry for another 1-2 minutes, until sauce is thickened.",
+        "Serve over cooked rice."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Salmon and Sweet Potato Hash",
+      "ingredients": [
+        "2 salmon fillets",
+        "2 sweet potatoes, peeled and diced",
+        "1 red bell pepper, diced",
+        "1 onion, diced",
+        "2 cloves garlic, minced",
+        "2 tbsp olive oil",
+        "1 tsp smoked paprika",
+        "salt and pepper"
+      ],
+      "directions": [
+        "Preheat oven to 400°F.",
+        "In a large bowl, toss sweet potatoes, red bell pepper, onion, garlic, olive oil, smoked paprika, salt and pepper together.",
+        "Spread the mixture onto a baking sheet and bake for 25-30 minutes, until sweet potatoes are tender.",
+        "Season salmon fillets with salt and pepper and bake in the oven for 10-12 minutes, until cooked through.",
+        "Serve salmon fillets on top of the sweet potato hash."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Quinoa and Black Bean Bowl",
+      "ingredients": [
+        "1 cup quinoa",
+        "1 can black beans, drained and rinsed",
+        "1 avocado, sliced",
+        "1 bell pepper, diced",
+        "1/4 cup cilantro, chopped",
+        "1/4 cup lime juice",
+        "2 tbsp olive oil",
+        "salt and pepper"
+      ],
+      "directions": [
+        "Cook quinoa according to package instructions.",
+        "In a large bowl, combine cooked quinoa, black beans, avocado, bell pepper, cilantro, lime juice, olive oil, salt and pepper.",
+        "Toss to combine and serve cold"
+      ]
+    }
+  ]
+}

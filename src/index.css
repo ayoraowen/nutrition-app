@@ -5,9 +5,65 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-repeat: no-repeat;
+	background-size: cover;
+  /* margin-left: -40px; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.menu-container {
+  background-color: #4f772d;
+  width: 91%;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 10px;
+  opacity: 0.95;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+	font-weight: 200;
+	font-size: 20px;
+}
+
+.nav-link {
+	color: #000000;
+	/* font-size: 30px; */
+	margin: 30px 15px;
+  border-radius: 10px;
+}
+
+ul {
+  padding-left: 0rem;
+}
+
+.blackentext {
+  color: #000000;
+}
+
+/* .stylehomepgintro {
+  flex-direction: column;
+} */
+
+/*centering homepage card div*/
+.card {
+  display: inline-block;
+  padding: 20px 
+}
+
+/*addpadding*/
+.addpaddingtoBMIcalc{
+  padding: 40px;
+}
+
+a {
+  border-radius: 10px;
 }

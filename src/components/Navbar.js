@@ -12,73 +12,97 @@ const linkStyles = {
   color: "white",
 };
 function Navbar() {
-  return <div className="navlinks-and-search">
-    
-    <NavLink
-        className="navbarhoverclass"
-        to="/"
-        exact
-        style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
-      >
-        Home
-      </NavLink>
+  return (
+    <div id="site-navbar">
+        <nav className="navbar navbar-expand-lg">
+            <div className="container-fluid nav-container">
+                <p className="navbar-brand">
+                    Nutrition.App
+                </p>
+                <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <NavLink
+                                className="nav-link"
+                                to="/"
+                                exact
+                                // style={linkStyles}
+                                activeStyle={{
+                                background: "green",
+                            
+                                }}
+                            >
+                                Home
+                            </NavLink>
+                        </li>    
+                        <li className="nav-item">
 
-      <NavLink
-        className="navbarhoverclass"
-        to="/about"
-        exact
-        style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
-      >
-      About
-      </NavLink>
+                            <NavLink
+                                className="nav-link"
+                                to="/about"
+                                exact
+                                // style={linkStyles}
+                                activeStyle={{
+                                  background: "green",
+                                }}
+                            >
+                            About
+                            </NavLink>
+                        </li>  
+                        <li className="nav-item"> 
 
-      <NavLink
-        className="navbarhoverclass"
-        to="/build-muscle"
-        exact
-        style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
-      >
-        BuildMuscle
-      </NavLink>
+                            <NavLink
+                                className="nav-link"
+                                to="/build-muscle"
+                                exact
+                                // style={linkStyles}
+                                activeStyle={{
+                                  background: "green",
+                                }}
+                            >
+                                BuildMuscle
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">  
 
-      <NavLink
-        className="navbarhoverclass"
-        to="/gain-weight"
-        exact
-        style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
-        >
-          GainWeight
-      </NavLink>
-      
-      <NavLink
-        className="navbarhoverclass"
-        to="/lose-weight"
-        exact
-        style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
-        >
-          LoseWeight
-   </NavLink>
-   <div class="rightNav">
-                  <input type="text" placeholder="Search.." />
-                  <button class="btn">Search</button>
-                  </div>
-    
-  </div>;
+                            <NavLink
+                                className="nav-link"
+                                to="/gain-weight"
+                                exact
+                                // style={linkStyles}
+                                activeStyle={{
+                                  background: "green",
+                                }}
+                                >
+                                GainWeight
+                            </NavLink>
+                        </li>    
+                        <li className="nav-item">   
+                            <NavLink
+                                className="nav-link"
+                                to="/lose-weight"
+                                exact
+                                // style={linkStyles}
+                                activeStyle={{
+                                  background: "green",
+                                }}
+                                >
+                                LoseWeight
+                            </NavLink>
+                        </li>  
+                    </ul>      
+
+                    <div class="rightNav">
+                                    <input type="text" placeholder="Search.." />
+                                    {/* <button class="btn">Search</button> */}
+                    </div>
+                            
+                </div>
+            </div> 
+        </nav> 
+    </div>          
+
+   ) 
 }
 
 export default Navbar;

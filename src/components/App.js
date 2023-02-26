@@ -6,7 +6,7 @@ import BuildMuscle from "./BuildMuscle";
 import GainWeight from "./GainWeight";
 import LoseWeight from "./LoseWeight";
 import Bmi from "./Bmi";
-import '../../src/App.css'
+// import '../../src/App.css'
 import About from "./About";
 
 
@@ -15,12 +15,12 @@ function App() {
   const imgUrl ="https://picsum.photos/200"
     
   return <div>
-  <nav class="navbar background">
+  {/* <nav class="navbar background"> */}
       <ul class="nav-list">
           <div class="logo">
           {/* <img alt="logo" src="" width={140} height={100} />  */}
           </div>
-      <header className="App-header">
+      <header className="App-header">{/**/}
           <Navbar />
       </header>
       <Switch>
@@ -49,13 +49,13 @@ function App() {
                   <input type="text" placeholder="Search.." />
                   <button class="btn">Search</button>
                   </div> */}
-  </nav>
+  {/* </nav> */}
 
   <div>
    <img src={imgUrl} alt="randomimage"/>
   </div>
 
-  <Bmi />
+  
   </div>;
 }
 

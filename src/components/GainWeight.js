@@ -26,9 +26,9 @@ function GainWeight() {
             <h3>{food.name}</h3>
             <img src={food.image_link} alt={food.name} width="200" height="200" />
             <p>{food.daily_consumption_quantity}</p>
-            <p>Calories: {food.nutritional_value.calories}</p>
-            <p>Protein: {food.nutritional_value.protein}</p>
-            <p>Fat: {food.nutritional_value.fat}</p>
+            {/* <p>Calories: {food.nutritional_value.calories}</p> */}
+            {/* <p>Protein: {food.nutritional_value.protein}</p> */}
+            {/* <p>Fat: {food.nutritional_value.fat}</p> */}
           </li>
         ))}
       </ul>
