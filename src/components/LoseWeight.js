@@ -47,7 +47,7 @@ return (
                   <li className="list-group-item">A second item</li>
                   <li className="list-group-item">A third item</li> */}
                   {console.log(foodItem.nutritional_value)}
-                  {foodItem.nutritional_value.map((item, key) => <li className="list-group-item">{Object.keys(item).concat("     ",Object.values(item))}</li>)}
+                  {foodItem.nutritional_value.map((item, key) => <li className="list-group-item">{Object.keys(item).concat("     ",Object.values(item),"µg")}</li>)}
               </ul>
               <div className="card-body">
                   <a href="#" className="btn btn-primary">See more</a>

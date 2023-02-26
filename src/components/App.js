@@ -51,9 +51,9 @@ function App() {
                   </div> */}
   {/* </nav> */}
 
-  <div>
+  {/* <div>
    <img src={imgUrl} alt="randomimage"/>
-  </div>
+  </div> */}
 
   
   </div>;

@@ -281,154 +281,154 @@
     {
       "id": 1,
       "name": "Peanut Butter",
-      "nutritional_value": {
-        "calories": 190,
-        "protein": 7,
-        "carbs": 7,
-        "fat": 16,
-        "fiber": 2,
-        "sugar": 3
-      },
-      "image_link": "public/app-images/peanutbutter.jpeg",
+      "nutritional_value": [
+        {"calories": 190},
+        {"protein": 7},
+        {"carbs": 7},
+        {"fat": 16},
+        {"fiber": 2},
+        {"sugar": 3}
+      ],
+      "image_link": "/app-images/peanutbutter.jpeg",
       "daily_consumption_quantity": "2 tbsp"
     },
     {
       "id": 2,
       "name": "Bananas",
-      "nutritional_value": {
-        "calories": 105,
-        "protein": 1.3,
-        "carbs": 27,
-        "fiber": 3.1,
-        "vitamin_c": 14,
-        "potassium": 422
-      },
-      "image_link": "public/app-images/bananas.jpeg",
+      "nutritional_value": [
+        {"calories": 105},
+        {"protein": 1.3},
+        {"carbs": 27},
+        {"fiber": 3.1},
+        {"vitamin_c": 14},
+        {"potassium": 422}
+    ],
+      "image_link": "/app-images/bananas.jpeg",
       "daily_consumption_quantity": "2 bananas"
     },
     {
       "id": 3,
       "name": "Olive Oil",
-      "nutritional_value": {
-        "calories": 120,
-        "fat": 14,
-        "vitamin_e": 13.5,
-        "vitamin_k": 60.2,
-        "antioxidants": "polyphenols"
-      },
-      "image_link": "public/app-images/oliveoil.webp",
+      "nutritional_value": [
+        {"calories": 120},
+        {"fat": 14},
+        {"vitamin_e": 13.5},
+        {"vitamin_k": 60.2},
+        {"antioxidants": "polyphenols"}
+      ],
+      "image_link": "/app-images/oliveoil.webp",
       "daily_consumption_quantity": "1 tbsp"
     },
     {
       "id": 4,
       "name": "Whole Milk",
-      "nutritional_value": {
-        "calories": 146,
-        "protein": 8,
-        "carbs": 11,
-        "fat": 8,
-        "calcium": 28,
-        "vitamin_d": 24
-      },
-      "image_link": "public/app-images/wholemilk.jpeg",
+      "nutritional_value": [
+        {"calories": 146},
+        {"protein": 8},
+        {"carbs": 11},
+        {"fat": 8},
+        {"calcium": 28},
+        {"vitamin_d": 24}
+    ],
+      "image_link": "/app-images/wholemilk.jpeg",
       "daily_consumption_quantity": "1 cup"
     },
     {
       "id": 5,
       "name": "Cheese",
-      "nutritional_value": {
-        "calories": 113,
-        "protein": 7,
-        "fat": 9,
-        "calcium": 20,
-        "vitamin_b12": 13,
-        "sodium": 176
-      },
-      "image_link": "public/app-images/cheese.jpeg",
+      "nutritional_value": [
+        {"calories": 113},
+        {"protein": 7},
+        {"fat": 9},
+        {"calcium": 20},
+        {"vitamin_b12": 13},
+        {"sodium": 176}
+      ],
+      "image_link": "/app-images/cheese.jpeg",
       "daily_consumption_quantity": "1 oz"
     },
     {
       "id": 6,
       "name": "Dark Chocolate",
-      "nutritional_value": {
-        "calories": 155,
-        "fat": 9,
-        "carbs": 17,
-        "fiber": 3.1,
-        "sugar": 12,
-        "iron": 19
-      },
-      "image_link": "public/app-images/darkchocolate.jpeg",
+      "nutritional_value": [
+        {"calories": 155},
+        {"fat": 9},
+        {"carbs": 17},
+        {"fiber": 3.1},
+        {"sugar": 12},
+        {"iron": 19}
+      ],
+      "image_link": "/app-images/darkchocolate.jpeg",
       "daily_consumption_quantity": "1 oz"
     },
     {
       "id": 7,
       "name": "Sweet Potato",
-      "nutritional_value": {
-        "calories": 103,
-        "protein": 2.3,
-        "carbs": 24,
-        "fiber": 3.8,
-        "vitamin_a": 438,
-        "vitamin_c": 34
-      },
-      "image_link": "public/app-images/chickenbreast.webp",
+      "nutritional_value": [
+        {"calories": 103},
+        {"protein": 2.3},
+        {"carbs": 24},
+        {"fiber": 3.8},
+        {"vitamin_a": 438},
+        {"vitamin_c": 34}
+    ],
+      "image_link": "/app-images/chickenbreast.webp",
       "daily_consumption_quantity": "1 medium"
     },
     {
       "id": 8,
       "name": "Granola",
-      "nutritional_value": {
-        "calories": 300,
-        "protein": 10,
-        "carbs": 45,
-        "fat": 10,
-        "fiber": 4,
-        "sugar": 15
-      },
-      "image_link": "public/app-images/granola.jpeg",
+      "nutritional_value": [
+        {"calories": 300},
+        {"protein": 10},
+        {"carbs": 45},
+        {"fat": 10},
+        {"fiber": 4},
+        {"sugar": 15}
+    ],
+      "image_link": "/app-images/granola.jpeg",
       "daily_consumption_quantity": "1/2 cup"
     },
     {
       "id": 9,
       "name": "Dried Fruits",
-      "nutritional_value": {
-        "calories": 313,
-        "protein": 2.3,
-        "carbs": 82,
-        "fiber": 7,
-        "vitamin_a": 0,
-        "vitamin_c": 5
-      },
-      "image_link": "public/app-images/driedfruits.jpeg",
+      "nutritional_value": [
+        {"calories": 313},
+        {"protein": 2.3},
+        {"carbs": 82},
+        {"fiber": 7},
+        {"vitamin_a": 0},
+        {"vitamin_c": 5}
+    ],
+      "image_link": "/app-images/driedfruits.jpeg",
       "daily_consumption_quantity": "1/2 cup"
     },
     {
       "id": 10,
       "name": "Rice",
-      "nutritional_value": {
-        "calories": 121,
-        "protein": 2.7,
-        "carbs": 26,
-        "fiber": 0.4,
-        "iron": 2,
-        "sodium": 1
-      },
-      "image_link": "public/app-images/rice.jpeg",
+      "nutritional_value": [
+        {"calories": 121},
+        {"protein": 2.7},
+        {"carbs": 26},
+        {"fiber": 0.4},
+        {"iron": 2},
+        {"sodium": 1}
+      ],
+      "image_link": "/app-images/rice.jpeg",
       "daily_consumption_quantity": "1 cup cooked"
     },
     {
       "id": 11,
       "name": "Pasta",
-      "nutritional_value": {
-        "calories": 131,
-        "protein": 5,
-        "carbs": 25,
-        "fiber": 1.3,
-        "iron": 7,
-        "sodium": 1
-      },
-      "image_link": "public/app-images/pasta.jpeg",
+      "nutritional_value": [
+        {"calories": 131},
+        {"protein": 5},
+        {"carbs": 25},
+        {"fiber": 1.3},
+        {"iron": 7},
+        {"sodium": 1}
+      ],
+      "image_link": "/app-images/pasta.jpeg",
       "daily_consumption_quantity": "1 cup cooked"
     }
   ],
@@ -552,7 +552,7 @@
           "vitamin_b12": 15
         }
       ],
-      "image_link": "public/app-images/eggs.webp",
+      "image_link": "/app-images/eggs.webp",
       "daily_consumption_quantity": "2-3 eggs"
     },
     {
@@ -575,7 +575,7 @@
           "niacin": 47
         }
       ],
-      "image_link": "public/app-images/chickenbreast.webp",
+      "image_link": "/app-images/chickenbreast.webp",
       "daily_consumption_quantity": "4-6 oz"
     },
     {
@@ -598,7 +598,7 @@
           "niacin": 78
         }
       ],
-      "image_link": "public/app-images/tuna.webp",
+      "image_link": "/app-images/tuna.webp",
       "daily_consumption_quantity": "4-5 oz"
     },
     {
@@ -621,7 +621,7 @@
           "vitamin_b12": 56
         }
       ],
-      "image_link": "public/app-images/salmon.webp",
+      "image_link": "/app-images/salmon.webp",
       "daily_consumption_quantity": "3-4 oz"
     },
     {
@@ -644,7 +644,7 @@
           "zinc": 54
         }
       ],
-      "image_link": "public/app-images/beef.jpeg",
+      "image_link": "/app-images/beef.jpeg",
       "daily_consumption_quantity": "4-6 oz"
     },
     {
@@ -667,7 +667,7 @@
           "iron": 8
         }
       ],
-      "image_link": "public/app-images/quinoa.jpeg",
+      "image_link": "/app-images/quinoa.jpeg",
       "daily_consumption_quantity": "1 cup"
     },
     {
@@ -690,7 +690,7 @@
           "vitamin_a": 438
         }
       ],
-      "image_link": "public/app-images/sweetpotatoes.jpeg",
+      "image_link": "/app-images/sweetpotatoes.jpeg",
       "daily_consumption_quantity": "1 medium"
     }
   ],
